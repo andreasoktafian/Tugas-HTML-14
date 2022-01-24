@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 14-1</title>
+</head>
+<body>
+    <h1>Form Element</h1>
+    <form action="" method="post">
+        <input type="text" placeholder="Nama" value="Fujimiya" name="nama" id="nama" required><br><br>
+        <input type="text" placeholder="Cita-cita" name="cita" id="cita" required oninvalid="this.setCustomValidity('Cita-cita Mohon di sini')"><br><br>
+        <input type="text" placeholder="NO HP" name="hp" id="hp" required oninvalid="this.setCustomValidity('No. HP Mohon di sini')"> <br><br>
+        <textarea rows="10" cols="100" name="alamat" id="alamat" required>Jl Japan</textarea><br><br>
+        <button type="submit">Simpan</button>
+    </form>
+    <p>Semoga ilmu yang dipelajari berkah - Tugas 14-1</p>
+</body>
+</html>
